@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+header {
+    background-color: #000;
+}
+
+li>a {
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #aaa;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+th {
+    background-color: #333;
+    color: #aaa;
+}
+
+td {
+    background-color: #ccc;
+    color: #333;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer, footer>a {
+    background-color: #000;
+    color: azure;
+}
